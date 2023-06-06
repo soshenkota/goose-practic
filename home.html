@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230606155219">
+	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__block">
+					<a href="#" class="header__logo">
+						<img src="img/logo.svg" alt="logo">
+					</a>
+					<span class="header__text">Школа підготовки IT-спеціалістів</span>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__banderogoose banderogoose">
+				<div class="banderogoose__container">
+					<div class="banderogoose__content">
+						<div class="banderogoose__label">Доброго вечора, ми з України</div>
+						<div class="banderogoose__red-text">На старт. Увага. Полетіли!</div>
+						<h1 class="banderogoose__title">Бандерогусь</h1>
+						<p class="banderogoose__text">Спеціальний бойовий гусак із біолабораторій України. Пишаюся своїми
+							подвигами, бороню Батьківщину та підтримую позитивний дух народу. Слава Україні!</p>
+						<div class="banderogoose__action">
+							<a data-popup="#popup" href="#" class="banderogoose__button button">Запустити гуся</a>
+						</div>
+					</div>
+					<div class="banderogoose__picter">
+						<img src="img/main-picter.svg" alt="Image">
+					</div>
+				</div>
+			</section>
+			<section class="page__interesting-info info-interesting">
+				<div class="info-interesting__container">
+					<div class="info-interesting__header">
+						<div class="info-interesting__trident">
+							<img src="img/trident.svg" alt="Trident">
+						</div>
+						<h2 class="info-interesting__title">Цікаві факти про бандерогусей</h2>
+						<p class="info-interesting__text">Зазвичай бандерогуси — виключно мирні птахи. Але у разі небезпеки
+							можуть атакувати ворога системою надпотужного озброєння. Також нищать психологічно, активуючи
+							високочастотне шипіння та розмахування крилами</p>
+					</div>
+					<div class="info-interesting__articles articles-block">
+						<article class="articles-block__content">
+							<div class="articles-block__image">
+								<img src="img/gus1.svg" alt="Goose">
+							</div>
+							<div class="articles-block__joint">
+								<h3 class="articles-block__title">Система навігації</h3>
+								<p class="articles-block__text">Супутниковий GPS та ехолокатори розпізнають ворожу техніку
+									навіть
+									на етапі збірки</p>
+							</div>
+						</article>
+						<article class="articles-block__content">
+							<div class="articles-block__image">
+								<img src="img/gus2.svg" alt="Goose">
+							</div>
+							<div class="articles-block__joint">
+								<h3 class="articles-block__title">Очі-тепловізори</h3>
+								<p class="articles-block__text">Допомагають виявити характер сигнатури об’єктів та значно
+									підвищують точність удару</p>
+							</div>
+						</article>
+						<article class="articles-block__content">
+							<div class="articles-block__image">
+								<img src="img/gus3.svg" alt="Goose">
+							</div>
+							<div class="articles-block__joint">
+								<h3 class="articles-block__title">Байракрила</h3>
+								<p class="articles-block__text">Можуть нести 2-4 керовані ракети, що вражають ціль на відстані
+									«ніхріна собі» кілометрів</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__info-interesting info-interesting__header info-interesting">
+					<div class="info-interesting__trident">
+						<img src="img/trident.svg" alt="Trident">
+					</div>
+					<h2 class="info-interesting__title">Перемога завжди за нами!</h2>
+					<p class="info-interesting__text">Головна мета бандерогусей — служити гумору та доброті нашого народу. Ми
+						забезпечимо вашу посмішку у часи, коли вона так необхідна</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<div class="popup__image">
+						<img src="img/trident.svg" alt="Trident">
+					</div>
+					<h4 class="popup__title">Поділися, будь ласка, поштою</h4>
+					<div class="popup__labels">та запиши гуся до бандерозагону</div>
+					<form action="#" method="get" class="popup__form">
+						<div class="popup__line">
+							<label for="name-01" class="popup__label">Ім'я</label>
+							<input id="name-01" type="text" name="form[]" class="popup__input input">
+						</div>
+						<div class="popup__line">
+							<label for="email-01" class="popup__label">Email</label>
+							<input id="email-01" type="email" name="form[]" class="popup__input input">
+						</div>
+						<div class="banderogoose__action">
+							<a data-popup="#end" href="#" class="banderogoose__button button">Запустити гуся</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="end" aria-hidden="true" class="popup popup__end">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text popup__text--end">
+					<div class="end">
+						<div class="end__image">
+							<img src="img/trident.svg" alt="Trident">
+						</div>
+						<h4 class="end__title">Дякуємо, гусь успішно запущений</h4>
+						<div class="end__text">Слава Україні! Героям Слава!</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230606155219"></script>
+</body>
+
+</html>
